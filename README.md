@@ -15,17 +15,22 @@ source is private, because the database it runs against is medical.
 
 ## Screenshots
 
-<!-- The images are not in yet. The seven sections below are kept, commented
-     out, so adding the files is the only step left: drop them in
-     screenshots/ and uncomment. Linking images that do not exist renders as
-     seven broken icons, which looks worse than saying nothing. -->
+### Overview
 
-*Screenshots are being added. Until then the pages are described below, and
-the design notes carry the reasoning.*
+![Overview — weight against goal, pace, medication level, last night's sleep, and the scored day calendar](screenshots/overview.png)
+
+Weight against goal, pace, medication level, last night's sleep, and the day's
+outstanding prompts. The briefing card shows the reasoning behind a bedtime,
+not just the time.
+
+<!-- The remaining six are kept commented out until their images exist:
+     linking a missing file renders as a broken icon. Drop the PNG in
+     screenshots/ and uncomment the matching block. -->
+
+*More screenshots to come. The other pages are described below.*
 
 | Page | What it shows |
 |---|---|
-| Overview | Weight against goal, pace, medication level, last night's sleep, and the scored day calendar |
 | Weight | Readings against the goal line, with the card explaining what moved the latest one |
 | Medication | Dose calendar, decay curve and supply projection |
 | Food | Day totals with macro gauges and itemised entries |
@@ -34,12 +39,6 @@ the design notes carry the reasoning.*
 | Sleep | Score, HRV, stress and stages for a single night |
 
 <!--
-### Overview
-
-![Overview — weight against goal, pace, medication level, last night's sleep, and the scored day calendar](screenshots/overview.png)
-
-Weight against goal, pace, medication level, last night's sleep, and the scored day calendar.
-
 ### Weight
 
 ![Weight — readings against the goal line, with the card explaining what moved the latest one](screenshots/weight.png)
