@@ -15,11 +15,30 @@ source is private, because the database it runs against is medical.
 
 ## Screenshots
 
+<!-- The images are not in yet. The seven sections below are kept, commented
+     out, so adding the files is the only step left: drop them in
+     screenshots/ and uncomment. Linking images that do not exist renders as
+     seven broken icons, which looks worse than saying nothing. -->
+
+*Screenshots are being added. Until then the pages are described below, and
+the design notes carry the reasoning.*
+
+| Page | What it shows |
+|---|---|
+| Overview | Weight against goal, pace, medication level, last night's sleep, and the scored day calendar |
+| Weight | Readings against the goal line, with the card explaining what moved the latest one |
+| Medication | Dose calendar, decay curve and supply projection |
+| Food | Day totals with macro gauges and itemised entries |
+| Training | Lifting progression per movement |
+| Running | Per-session HR zones against a programme-week target |
+| Sleep | Score, HRV, stress and stages for a single night |
+
+<!--
 ### Overview
 
-![Overview — weight against goal, pace, drug level, last night's sleep, and the scored day calendar](screenshots/overview.png)
+![Overview — weight against goal, pace, medication level, last night's sleep, and the scored day calendar](screenshots/overview.png)
 
-Weight against goal, pace, drug level, last night's sleep, and the scored day calendar.
+Weight against goal, pace, medication level, last night's sleep, and the scored day calendar.
 
 ### Weight
 
@@ -56,6 +75,7 @@ Per-session HR zones against a programme-week target.
 ![Sleep — score, HRV, stress and stages for a single night](screenshots/sleep.png)
 
 Score, HRV, stress and stages for a single night.
+-->
 
 All screenshots use a demo profile whose figures are invented.
 
@@ -65,7 +85,7 @@ All screenshots use a demo profile whose figures are invented.
 
 | Page | What it shows |
 |---|---|
-| Overview | Weight against goal, current pace, drug level in system, last night's sleep, intensity minutes, protein, and a calendar of scored days |
+| Overview | Weight against goal, current pace, medication level in system, last night's sleep, intensity minutes, protein, and a calendar of scored days |
 | Weight | Every reading against the goal line, fitted pace, and a card explaining what moved the latest one |
 | Medication | Dose calendar, pharmacokinetic decay curve, supply projection, remaining stock derived rather than stored |
 | Food | Day totals with macro gauges, itemised entries, barcode scanning, a searchable food bank |
