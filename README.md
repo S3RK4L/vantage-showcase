@@ -23,7 +23,16 @@ Weight against goal, pace, medication level, last night's sleep, and the day's
 outstanding prompts. The briefing card shows the reasoning behind a bedtime,
 not just the time.
 
-<!-- The remaining six are kept commented out until their images exist:
+### Weight
+
+![Weight — the goal line, the pace fits, and what moved the latest reading](screenshots/weight.png)
+
+Every reading against the goal line, with three pace fits projected forward.
+The panel on the right attributes the gap between what the scale did and what
+the trend expected -- and says plainly how much of it is accounted for, which
+here is none of it.
+
+<!-- The remaining five are kept commented out until their images exist:
      linking a missing file renders as a broken icon. Drop the PNG in
      screenshots/ and uncomment the matching block. -->
 
@@ -31,7 +40,6 @@ not just the time.
 
 | Page | What it shows |
 |---|---|
-| Weight | Readings against the goal line, with the card explaining what moved the latest one |
 | Medication | Dose calendar, decay curve and supply projection |
 | Food | Day totals with macro gauges and itemised entries |
 | Training | Lifting progression per movement |
@@ -39,12 +47,6 @@ not just the time.
 | Sleep | Score, HRV, stress and stages for a single night |
 
 <!--
-### Weight
-
-![Weight — readings against the goal line, with the card explaining what moved the latest one](screenshots/weight.png)
-
-Readings against the goal line, with the card explaining what moved the latest one.
-
 ### Medication
 
 ![Medication — dose calendar, decay curve and supply projection](screenshots/medication.png)
