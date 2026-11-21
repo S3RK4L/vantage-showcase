@@ -32,27 +32,25 @@ The panel on the right attributes the gap between what the scale did and what
 the trend expected -- and says plainly how much of it is accounted for, which
 here is none of it.
 
-<!-- The remaining five are kept commented out until their images exist:
+<!-- The remaining four are kept commented out until their images exist:
      linking a missing file renders as a broken icon. Drop the PNG in
-     screenshots/ and uncomment the matching block. -->
+     screenshots/ and uncomment the matching block.
+
+     Medication is deliberately NOT screenshotted and has no block here.
+     Every other page can be shown with invented figures, but that page's
+     content IS the sensitive part -- dose history, injection schedule and
+     supply projection -- so it is described in the text and not pictured. -->
 
 *More screenshots to come. The other pages are described below.*
 
 | Page | What it shows |
 |---|---|
-| Medication | Dose calendar, decay curve and supply projection |
 | Food | Day totals with macro gauges and itemised entries |
 | Training | Lifting progression per movement |
 | Running | Per-session HR zones against a programme-week target |
 | Sleep | Score, HRV, stress and stages for a single night |
 
 <!--
-### Medication
-
-![Medication — dose calendar, decay curve and supply projection](screenshots/medication.png)
-
-Dose calendar, decay curve and supply projection.
-
 ### Food
 
 ![Food — day totals with macro gauges and itemised entries](screenshots/food.png)
