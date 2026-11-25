@@ -26,17 +26,17 @@ repeated back -- so it moves when the rate does.
 The reading carries its own age. `11D OLD` next to a weigh-in says the number
 is stale rather than quietly showing an old figure as if it were today's.
 
-<!-- STALE: this one predates the Expedition redesign and sits between two
-     pages that do not. Replace the PNG and the caption together -- the text
-     below describes the old chart-and-panel layout. -->
 ### Weight
 
-![Weight — the goal line, the pace fits, and what moved the latest reading](screenshots/weight.png)
+![Weight — tape measurements over time, drawn on a body outline](screenshots/weight.png)
 
-Every reading against the goal line, with three pace fits projected forward.
-The panel on the right attributes the gap between what the scale did and what
-the trend expected -- and says plainly how much of it is accounted for, which
-here is none of it.
+Sizes follow the tape, not the scale. The outline draws the current shape
+solid and the starting one dashed, with the changes exaggerated 3x so half an
+inch is actually visible -- and it says so, rather than letting anyone read
+the drawing as life-size.
+
+Each row carries its reading count. `2 readings` is a warning that a trend
+line through two points is a line through two points.
 
 ### Trail Mix
 
@@ -45,48 +45,49 @@ here is none of it.
 Two kinds of number, two different objects, so they can never be confused.
 Targets are **flags**: raised or not, and the flag's height is the progress.
 Ceilings are a **pack**: it fills up, and something bursting out of it is
-over. The same colour cannot mean "good" in one place and "careful" in
-another, because the shapes are doing the work the colour used to.
+over.
 
-Each column says its own verdict underneath -- `Reached +17 g`, `19 g short`
--- so the chart never has to be decoded.
+![The flags and the pack, close up](screenshots/food-targets.png)
 
-<!-- The remaining three are kept commented out until their images exist:
-     linking a missing file renders as a broken icon. Drop the PNG in
-     screenshots/ and uncomment the matching block.
+The same colour cannot mean "good" in one place and "careful" in another,
+because the shapes are doing the work the colour used to. Each column says
+its own verdict underneath -- `Reached +17 g`, `19 g short` -- so nothing has
+to be decoded.
 
-     Medication is deliberately NOT screenshotted and has no block here.
-     Every other page can be shown with invented figures, but that page's
-     content IS the sensitive part -- dose history, injection schedule and
-     supply projection -- so it is described in the text and not pictured. -->
+![Trail Mix — the day's stops, and every item logged](screenshots/food-log.png)
 
-*More screenshots to come. The other pages are described below.*
+Below that, the day as a route: what was eaten at each stop, then every item
+with the macro you pick highlighted across all of them at once.
 
-| Page | What it shows |
-|---|---|
-| Training | Lifting progression per movement |
-| Running | Per-session HR zones against a programme-week target |
-| Sleep | Score, HRV, stress and stages for a single night |
+### Climber
 
-<!--
-### Training
+![Climber — which muscles have been worked, and what to train next](screenshots/training.png)
 
-![Training — lifting progression per movement](screenshots/training.png)
+The body map warms where the last 28 days of lifts landed, so the gaps are
+visible rather than inferred from a table. `10 / 24` movements trained, 14
+never done.
 
-Lifting progression per movement.
+`READY TO GO UP` is deliberately conservative: a load moves only after two
+clean sessions at it, because finishing the reps is not the same as owning
+the weight.
 
 ### Running
 
-![Running — per-session HR zones against a programme-week target](screenshots/running.png)
+![Running — the programme as laps around camp](screenshots/running.png)
 
-Per-session HR zones against a programme-week target.
+A nine-week programme as 27 laps. Done, next, outstanding and ahead are four
+different states, and a run that was skipped stays visibly outstanding rather
+than quietly vanishing.
 
-### Sleep
+The heart-rate band in the header scales with the programme week -- the walk
+intervals disappear as the runs go continuous, so a fixed band would flag
+every later session as too hot.
 
-![Sleep — score, HRV, stress and stages for a single night](screenshots/sleep.png)
-
-Score, HRV, stress and stages for a single night.
--->
+<!-- Sleep is the one page still to shoot. Medication is deliberately NOT
+     screenshotted and has no block here: every other page can be shown with
+     invented figures, but that page's content IS the sensitive part -- dose
+     history, injection schedule and supply projection -- so it is described
+     in the text and not pictured. -->
 
 All screenshots use a demo profile whose figures are invented.
 
@@ -96,13 +97,14 @@ All screenshots use a demo profile whose figures are invented.
 
 | Page | What it shows |
 |---|---|
-| Overview | Weight against goal, current pace, medication level in system, last night's sleep, intensity minutes, protein, and a calendar of scored days |
-| Weight | Every reading against the goal line, fitted pace, and a card explaining what moved the latest one |
+| Expedition | The climb from start weight to goal: where you are, the next camp, the day's prompts, and last night's conditions |
+| Trail Mix | Targets as flags and ceilings as a pack, the day's stops, every item logged, barcode scanning, a searchable food bank |
+| Weight | Tape measurements over time on a body outline, and the readings behind each one |
+| Climber | A body map of what the last 28 days of lifts worked, per-movement loads, and a load ladder that waits for two clean sessions |
+| Running | A nine-week programme as laps around camp, with HR zones against a target that scales with programme week |
+| Camp | Sleep score, HRV, sleep stress, REM, body battery, and a derived bedtime recommendation |
 | Medication | Dose calendar, pharmacokinetic decay curve, supply projection, remaining stock derived rather than stored |
-| Food | Day totals with macro gauges, itemised entries, barcode scanning, a searchable food bank |
-| Training | Lifting progression per movement, load ladder, and a session picker that reads soreness |
-| Running | Structured beginner-programme progress, per-session HR zones against a target that scales with programme week |
-| Sleep | Score, HRV, sleep stress, REM, body battery, and a derived bedtime recommendation |
+| Mood, Vista, Badges, Guide | Mood scores and tags, the coach's written notes, earned badges, and how the whole thing works |
 
 Multi-profile, PIN-gated, with a demo profile whose figures are invented — which
 is what the screenshots above show.
