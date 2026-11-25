@@ -15,14 +15,20 @@ source is private, because the database it runs against is medical.
 
 ## Screenshots
 
-### Overview
+### Expedition
 
-![Overview — weight against goal, pace, medication level, last night's sleep, and the scored day calendar](screenshots/overview.png)
+![Expedition — the climb from start weight to goal, with the next camp, the day's quests and overnight conditions](screenshots/overview.png)
 
-Weight against goal, pace, medication level, last night's sleep, and the day's
-outstanding prompts. The briefing card shows the reasoning behind a bedtime,
-not just the time.
+The whole journey as one climb: where you are, the next camp, and the summit.
+The projected arrival date is fitted from the actual pace, not the goal date
+repeated back -- so it moves when the rate does.
 
+The reading carries its own age. `11D OLD` next to a weigh-in says the number
+is stale rather than quietly showing an old figure as if it were today's.
+
+<!-- STALE: this one predates the Expedition redesign and sits between two
+     pages that do not. Replace the PNG and the caption together -- the text
+     below describes the old chart-and-panel layout. -->
 ### Weight
 
 ![Weight — the goal line, the pace fits, and what moved the latest reading](screenshots/weight.png)
@@ -32,7 +38,20 @@ The panel on the right attributes the gap between what the scale did and what
 the trend expected -- and says plainly how much of it is accounted for, which
 here is none of it.
 
-<!-- The remaining four are kept commented out until their images exist:
+### Trail Mix
+
+![Trail Mix — targets as flags to raise, ceilings as a pack to fill](screenshots/food.png)
+
+Two kinds of number, two different objects, so they can never be confused.
+Targets are **flags**: raised or not, and the flag's height is the progress.
+Ceilings are a **pack**: it fills up, and something bursting out of it is
+over. The same colour cannot mean "good" in one place and "careful" in
+another, because the shapes are doing the work the colour used to.
+
+Each column says its own verdict underneath -- `Reached +17 g`, `19 g short`
+-- so the chart never has to be decoded.
+
+<!-- The remaining three are kept commented out until their images exist:
      linking a missing file renders as a broken icon. Drop the PNG in
      screenshots/ and uncomment the matching block.
 
@@ -45,18 +64,11 @@ here is none of it.
 
 | Page | What it shows |
 |---|---|
-| Food | Day totals with macro gauges and itemised entries |
 | Training | Lifting progression per movement |
 | Running | Per-session HR zones against a programme-week target |
 | Sleep | Score, HRV, stress and stages for a single night |
 
 <!--
-### Food
-
-![Food — day totals with macro gauges and itemised entries](screenshots/food.png)
-
-Day totals with macro gauges and itemised entries.
-
 ### Training
 
 ![Training — lifting progression per movement](screenshots/training.png)
