@@ -83,11 +83,30 @@ The heart-rate band in the header scales with the programme week -- the walk
 intervals disappear as the runs go continuous, so a fixed band would flag
 every later session as too hot.
 
-<!-- Sleep is the one page still to shoot. Medication is deliberately NOT
-     screenshotted and has no block here: every other page can be shown with
-     invented figures, but that page's content IS the sensitive part -- dose
-     history, injection schedule and supply projection -- so it is described
-     in the text and not pictured. -->
+### Camp
+
+![Camp — last night's sleep score, and the readings behind it](screenshots/sleep.png)
+
+Every metric says how much it trusts itself. `Learning your baseline: 7 of
+30 nights so far` is on four of the five cards, because a figure compared
+against three weeks of nobody's data is not a verdict yet. Resting HR has
+enough history to say `average`, and does.
+
+`lower is better` and `higher is better` sit on the metrics where the
+direction is not obvious, rather than assuming everyone knows which way HRV
+runs.
+
+![Camp — the last seven nights as cores drilled into the ground](screenshots/sleep-nights.png)
+
+Seven nights as core samples: the deeper the core, the better the score,
+with the stages stacked inside it. HRV and resting HR are coloured against
+your own range where one exists -- and HRV only goes amber when it is LOW,
+since a high reading is a good night and should not be flagged.
+
+<!-- Medication is deliberately NOT screenshotted and has no block here:
+     every other page can be shown with invented figures, but that page's
+     content IS the sensitive part -- dose history, injection schedule and
+     supply projection -- so it is described in the text and not pictured. -->
 
 All screenshots use a demo profile whose figures are invented.
 
